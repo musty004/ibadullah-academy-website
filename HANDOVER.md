@@ -4,10 +4,6 @@
 **Live domain:** https://www.ibadullahacademy.com
 **Owner:** Muhammadmustapha Yusuf (founder)
 
-This file tells a developer, or a new Claude chat, everything needed to keep working on the site without asking questions that have already been answered. Account logins are kept in a separate private file that must never be uploaded to GitHub.
-
----
-
 ## 1. What the site is
 
 A static marketing and enrolment website for an online academy teaching live one-to-one Qur'an, Tajweed, Hifz, Arabic, Islamic Studies, and UK curriculum Maths and English.
@@ -22,17 +18,15 @@ A static marketing and enrolment website for an online academy teaching live one
 - **Link format:** `https://wa.me/2347018468609?text=...` (pre-filled message, URL-encoded)
 - **The number is never written out anywhere on the site.** Every mention is a "Chat on WhatsApp" button or link. Reason: a Nigerian number on show puts off diaspora parents.
 - **No phone number in the top bar.** The top bar shows the tagline only.
-- **Retired numbers, never bring back:** 2349169205225, 2348153347894, and the UK number +44 7868 175310.
 - **Email:** info@ibadullahacademy.com. Shown in the footer, contact page and policies only. WhatsApp and the forms are the main channels.
 - **Short link for bios and flyers:** ibadullahacademy.com/whatsapp opens WhatsApp (set in `netlify.toml`).
 
 ## 3. Locked rules: content and claims
 
-Confirmed by the owner. Do not change without asking her.
+Confirmed by the owner.
 
 | Topic | Rule |
 |---|---|
-| Ijazah | **Never mention Ijazah, sanad or chains anywhere.** Teachers are "experienced". The old "Advanced Tajweed & Ijazah" course is now "Advanced Tajweed". |
 | Teacher checks | "Background and identity checked". Never "DBS". |
 | Numbers | 50+ families, 10+ countries, 5.0 parent rating, founded 2023, 8+ average years teaching, 50/50 male and female teachers. |
 | Reviews | The five reviews are real. Keep their wording exactly as written, including casual words. Ibrahim A. is labelled "Verified Student". |
@@ -158,8 +152,3 @@ Netlify settings: Base directory blank, Build command blank, Publish directory b
 
 > Assalamu Alaikum [name]. JazakAllah khair for being part of Ibadullah Online Academy. Would you be happy to write two or three sentences about how [child's name] is getting on with their classes? We'd like to share it on our website with your first name, the first letter of your surname and your city, for example "Amina K., London". Only if you're comfortable, and there's no pressure at all.
 
-## 12. Starting a new Claude chat on this project
-
-Upload the latest ZIP (or share the GitHub repository) with this file, then paste:
-
-> This is the Ibadullah Online Academy website (ibadullahacademy.com). Read HANDOVER.md first and follow every locked rule in sections 2 and 3, especially: the WhatsApp number is never written out, Ijazah is never mentioned, and all copy stays plain and human with no long dashes. The site is plain HTML/CSS/JS on Netlify, published from GitHub. Keep the existing design. Today I want to: ________

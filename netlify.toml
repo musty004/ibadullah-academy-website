@@ -1,0 +1,30 @@
+# Netlify settings for ibadullahacademy.com
+# Plain HTML site: no build command needed.
+
+[build]
+  publish = "."
+
+# The old Advanced Tajweed page address now points to the new one
+[[redirects]]
+  from = "/program-tajweed-ijazah.html"
+  to = "/program-advanced-tajweed.html"
+  status = 301
+
+# Short links for social media bios and flyers
+[[redirects]]
+  from = "/whatsapp"
+  to = "https://wa.me/2347018468609"
+  status = 302
+
+[[redirects]]
+  from = "/trial"
+  to = "/apply.html"
+  status = 301
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"

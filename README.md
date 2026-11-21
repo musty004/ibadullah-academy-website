@@ -24,5 +24,3 @@ Plain HTML, CSS and JavaScript. No framework and no build step. Hosted on Netlif
 Muhammadmustapha Yusuf, founder of Ibadullah Online Academy.
 
 Other work: the AFIT Muslim Students' Community website, [afitmsc.com.ng](https://afitmsc.com.ng)
-
-Maintainers: please read `HANDOVER.md` before making changes.

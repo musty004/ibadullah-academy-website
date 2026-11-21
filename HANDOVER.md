@@ -36,16 +36,6 @@ Confirmed by the owner.
 | Safeguarding | Named by role only: "Safeguarding Lead". No personal name. |
 | Prices | See section 5. |
 
-### Writing style
-
-The owner wants every page to read as if a person wrote it.
-
-- Plain, warm British English. Short sentences. Speak to the parent as "you".
-- No long dashes (— or –). Use a comma, a full stop or "to".
-- No hype: no "best", "world-class", "journey", "unlock", "seamless".
-- No slogan patterns such as three short phrases in a row ("No card, no commitment, no pressure") or "not just X, but Y".
-- Islamic phrases used naturally: Assalamu Alaikum, in sha Allah, JazakAllah khair, alhamdulillah, ﷺ after the Prophet's name.
-
 ## 4. Pages
 
 All files sit at the root of the repository. There is no build step.
@@ -106,24 +96,12 @@ Both forms send to Formspree: `https://formspree.io/f/mgawjloq`
 - **Contact form** (`contact.html`): subject line "New enquiry from the contact page", `form_source` = Contact page.
 - Both send in the background and then show a thank-you panel. A hidden `_gotcha` field catches spam bots.
 - The apply form picks the subject automatically from links like `apply.html?program=hifz`, and fills in the visitor's time zone and country.
-- **Limit:** Formspree's free plan allows 50 submissions a month across both forms. Watch for Formspree's usage emails.
-- Netlify Forms is deliberately not used.
+
 
 ## 7. Scripts (assets/main.js)
 
 Mobile menu, FAQ accordion, scroll animations, currency switch (picks the currency from the visitor's time zone and remembers their choice), live clocks (`data-tz`), apply form pre-fill, and the form sending.
 
-## 8. Publishing
-
-1. Edit files on GitHub, or upload changed files with **Add file → Upload files**.
-2. Click **Commit changes**. Netlify publishes in about a minute.
-3. Group several changes into one commit where possible.
-4. Never drag and drop onto Netlify again: the next GitHub publish would overwrite it.
-5. To undo a bad publish: Netlify → Deploys → choose an earlier version → **Publish deploy**.
-
-Netlify settings: Base directory blank, Build command blank, Publish directory blank, Branch `main`. `netlify.toml` sets the publish folder too.
-
-## 9. Change log
 
 - **v2 (August 2026):** 20-page site, deployed by Netlify drag and drop.
 - **v2.1 (17 November 2026):** number change and top-bar removal. Never published.
@@ -148,7 +126,5 @@ Netlify settings: Base directory blank, Build command blank, Publish directory b
 4. **Google Search Console:** add the domain and submit `sitemap.xml` after launch.
 5. Later ideas: visitor stats that need no cookie banner, and a free download (for example an Arabic alphabet sheet) to collect parent emails.
 
-## 11. Message for collecting reviews
 
-> Assalamu Alaikum [name]. JazakAllah khair for being part of Ibadullah Online Academy. Would you be happy to write two or three sentences about how [child's name] is getting on with their classes? We'd like to share it on our website with your first name, the first letter of your surname and your city, for example "Amina K., London". Only if you're comfortable, and there's no pressure at all.
 
